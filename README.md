@@ -8,7 +8,7 @@ Data Cleaning
 2.	Import the data (Website to generate insert statements, https://www.convertcsv.com/csv-to-sql.htm)
 3.	Remove dupes
 4.	Standardize the data
-5.	Populate Null/Blank values or remove
+5.	Replace Blank values with NULL (trim will replace blank with NULL values)
 6.	Remove unnecessary/irrelevant/blank columns which doesn’t require any ETL process
   7.	Don’t remove columns from raw data
   8.	Create a backup table and work on it
